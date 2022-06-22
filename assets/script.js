@@ -29,7 +29,7 @@ searchBtn.addEventListener("click", function () {
 //use the info to generate a dynamic elem to append to page 
 
 function getApi(cityNameInput) {
-    var queryUrl = "http://api.openweathermap.org/data/2.5/weather?q=" + cityNameInput + "&appid=" + apiKey;
+    var queryUrl = "https://api.openweathermap.org/data/2.5/weather?q=" + cityNameInput + "&appid=" + apiKey;
     console.log(queryUrl)
    
        
